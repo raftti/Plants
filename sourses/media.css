@@ -1,0 +1,439 @@
+@media screen and (max-width: 1228px) {
+    .about__img{
+        padding-top: 50px;
+        width: 300px;
+        height: 310px;
+    }
+    .about__text-container{
+        width: 300px;
+        padding-bottom: 100px;
+    }
+    .service .service__items-container{
+        justify-content: none;
+    }
+}
+
+
+
+/* media 1095 */
+
+@media screen and (max-width: 1095px) {
+    .welcome-section .welcome-section__right-box{
+        padding-bottom: 50px;
+    }
+    .service .service__items-container{
+        height: 1550px;
+        justify-content: space-around;
+    }
+}
+
+
+
+/* media 880 */
+
+@media screen and (max-width: 880px) {
+    .welcome-section .welcome-section__right-box .welcome-section__text{
+        font-size: 30px;
+    }
+    .welcome-section .welcome-section__right-box .welcome-section__sub-text{
+        font-size: 17px;
+    }
+    .service .service__content .service__text{
+        width: 147px;
+    }
+    .service .service__content .service__btn-gardens{
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+    .service .service__content .service__btn-lawn{
+        margin-right: 15px;
+    }
+    .service .service__content .service__btn-gardens{
+        margin-left: 20px;
+        margin-right: 15px;
+    }
+    .prices .prices__left-part .prices__left-text{
+        max-width: 300px;
+    }
+    .about__img{
+        padding-top: 90px;
+        width: 240px;
+        height: 250px;
+    }
+    .contacts .contact__btn{
+        width: 260px;
+    }
+    .contacts .contacts__text{
+        right: 40%;
+    }
+}
+
+
+
+
+/* media 768 */
+
+@media screen and (max-width: 768px) {
+
+    .navbar{
+        padding-top: 35px;
+    }
+    .container{
+        max-width: 668px;
+        padding: 0 15px;
+    }
+    .welcome-section{
+        margin-top: 70px;
+        align-items: flex-start;
+        padding-bottom: 0;
+    }
+    .welcome-section__right-box{
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        max-width: 346px;
+        height: 310px;
+        margin-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .welcome-section .welcome-section__img{
+        width: 280px;
+        height: auto;
+    }
+    .welcome-section .welcome-section__right-box .welcome-section__text{
+        text-align: right;
+        margin-top: 0;
+        font-size: 35px;
+
+    }
+    .welcome-section .welcome-section__right-box .welcome-section__sub-text{
+        max-width: 341px;
+        text-align: right;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+    .welcome-section .welcome-section__right-box .welcome-section__bnt{
+        margin-top: 38px;
+        font-size: 16px;
+    }
+    .welcome-section__right-box{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+    .about{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about .about__text-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+    .about .about__text-container .about__text{
+        width: 315px;
+        font-size: 35px;
+        align-self: center;
+    }
+    .about .about__text-container .about__sub-text{
+        font-size: 20px;
+    }
+    .about img{
+        margin-top: 0;
+        padding-top: 0;
+        width: 250px;
+        height: 258px;
+    }
+    .service .service__content{
+        flex-direction: column;
+        width: 306px;
+        align-items: flex-start;
+    }
+    .service .service__content .service__text{
+        width: 306px;
+    }
+    .service .service__content .service__btn-gardens{
+        margin-left: 0;
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .service__btn-planting{
+        margin-top: 15px;
+    }
+    .service__item{
+        width: 280px;
+    }
+    .service .service__items-container .service__item img{
+        width: 280px;
+    }
+    .service .service__items-container{
+        justify-content: space-between;
+    }
+    .service .service__items-container .service__item span{
+        width: 201px;
+        text-align: center;
+    }
+    .service .service__items-container .service__item{
+        height: 422px;
+    }
+    .service .service__items-container{
+        height: 1390px;
+        padding-bottom: 25px;
+    }
+    .welcome-section .welcome-section__right-box{
+        width: 300px;
+    }
+
+
+
+
+    .prices .prices__right-text{
+        font-size: 35px;
+    }
+    .prices .prices__left-part .prices__left-text{
+        margin-top: 100px;
+        font-size: 25px;
+        max-width: 196px;
+        max-height: 77px;
+        height: 77px;
+        
+    }
+    .prices .prices__left-part button{
+        margin-top: 50px;
+        margin-bottom: 23px;
+    }
+    .prices .prices__left-part img{
+        margin-bottom: 40px;
+    }
+
+
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contacts .contacts__text{
+        position: static;
+        margin-right: 0;
+        margin-top: 40px;
+    }
+    .contacts .contacts__woman{
+        margin-top: 300px;
+        width: 200px;
+    }
+    .contacts .contact__btn{
+        width: 450px;
+        right: unset;
+        position: absolute;
+    }
+}
+
+
+
+
+/* media 660 */
+@media screen and (max-width: 600px) {
+    .welcome-section .welcome-section__right-box{
+        padding-bottom: 90px;
+    }
+    .welcome-section .welcome-section__img{
+        padding-top: 50px;
+    }
+    ul{
+        width: 380px;
+    }
+    .service .service__items-container{
+        justify-content: center;
+        height: 2760px;
+    }
+}
+
+
+
+/* media 565 */
+@media screen and (max-width: 567px) {
+    li{
+        margin-right: 20px;
+    }
+    .navbar__list{
+        flex-wrap: wrap;
+        width: 207px;
+        justify-content: unset;
+    }
+    .prices{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .prices__right-part{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .prices .prices__left-part{
+        margin-top: 35px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: unset;
+    }
+    .prices .prices__left-part .prices__left-text{
+        margin-top: 0;
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width: 556px) {
+    .welcome-section .welcome-section__img{
+        display: none;
+    }
+    .welcome-section__right-box{
+        width: 100% !important;
+        align-items: center;
+    }
+    .welcome-section__text{
+        text-align: center !important;
+    }
+    .welcome-section__sub-text{
+        text-align: center !important;
+    }
+}
+@media screen and (max-width: 485px) {
+    .contact__btn{
+        width: 300px !important;
+    }
+}
+@media screen and (max-width: 380px) {
+    .container{
+        max-width: 330px;
+    }
+    .navbar__list{
+        display: none;
+    }
+    .navbar__b-menu{
+        display: block !important;
+        width: 40px;
+        height: 24px;
+    }
+    .welcome-section__right-box{
+        padding-bottom: 0 !important;
+        height: 260px;
+        align-items: flex-start;
+    }
+    .welcome-section__text{
+        font-size: 25px !important;
+        text-align: left !important;
+    }
+    .welcome-section__sub-text{
+        text-align: left !important;
+        margin-top: 20px !important;
+        max-width: 314px;
+        height: 105px;
+    }
+    .welcome-section__bnt{
+        width: 64px !important;
+        margin-top: 10px !important;
+        font-size: 10px !important;
+        font-weight: 400;
+        line-height: 20px;
+        width: 66px;
+        padding: 8px 18px !important;
+    }
+
+    .about__text-container{
+        padding-bottom: 0 !important;
+    }
+    .about__text{
+        text-align: center !important;
+        font-size: 25px;
+    }
+    .about__sub-text{
+        font-size: 15px !important;
+    }
+    .about img{
+        width: 150px;
+        height: 147px;
+        padding-bottom: 31px;
+    }
+
+    .service__text{
+        width: 187px !important;
+        height: 69px !important;
+        font-size: 25px !important;
+    }
+    .service__btn-gardens{
+        font-size: 15px !important;
+        height: 20px !important;
+    }
+    .service__btn-lawn{
+        padding: 11px 49px !important;
+        font-size: 15px !important;
+        height: 20px !important;
+    }
+    .service__btn-planting{
+        font-size: 15px !important;
+        height: 20px !important;
+    }
+    .service__items-container{
+        margin-top: 45px !important;
+    }
+
+
+    .prices__btn-container{
+        padding: 29px 22px !important;
+        height: 180px !important;
+        width: 180px !important;
+    }
+    .prices__right-text{
+        margin-bottom: 40px !important; 
+        font-size: 25px !important;
+    }
+    .prices__right-btn{
+        padding: 15px 30px !important;
+        width: 120px !important;
+    }
+    .prices__right-btn span{
+        font-size: 15px !important;
+    }
+    .prices__right-btn img{
+        width: 16px;
+        height: 15px;
+    }
+    .prices__left-part{
+        width: 230px !important;
+        text-align: center;
+    }
+    .prices__left-text{
+        font-size: 20px !important;
+        max-width: 230px !important;
+        text-align: center;
+        line-height: 35px;
+    }
+    .prices .prices__left-part button{
+        padding: 8px 22px !important;
+        font-size: 15px !important;
+        margin-top: 10px !important;
+        margin-bottom: 40px !important;
+    }
+    .prices .prices__left-part img{
+        display: none;
+    }
+
+
+    .contacts__text{
+        font-size: 25px !important;
+    }
+    .contacts__woman{
+        margin-top: 212px !important;
+        width: 100px !important;
+    }
+}
