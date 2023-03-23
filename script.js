@@ -2,12 +2,14 @@ const burger_btn = document.getElementById('burger_btn')
 const welcome_btn = document.getElementById('welcome_btn')
 const navbar__list = document.getElementById('navbar__list')
 const ser = document.querySelector('.navbar__right-part')
+const burgerMenu1 = document.querySelector('.navbar__right-part')
 const burgerMenu2 = document.querySelector('.navbar__list')
 
 
 
 burger_btn.addEventListener('click', toggleMenu)
 function toggleMenu() {
+
     if(burger_btn.getAttribute('src') == '/sourses/images/burger.png') {
         burger_btn.setAttribute('src', '/sourses/images/Arrow-PNG-Image.png')
         burger_btn.style.marginLeft = '7px'
