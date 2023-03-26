@@ -95,7 +95,7 @@ bold{
             transition: .3s;
             color: red;
             display: flex;
-            width: 112%;
+            width: 130px;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
@@ -104,6 +104,10 @@ bold{
         }
         .navbar__list:last-child{
             margin-bottom: 8px;
+        }
+        .navbar__list{
+            border-top: 1px black solid;
+            margin-top: 5px;
         }
     }
 }
@@ -187,6 +191,7 @@ bold{
             font-size: 40px;
         }
         .service__btn{
+            user-select: none;
             color: #E06733;
             cursor: pointer;
             border-radius: 7px;
@@ -195,6 +200,9 @@ bold{
             padding: 12px 40px;
             margin-right: 38px;
             font-size: 20px;
+        }
+        .service__btn:active{
+            background-color: #E06733;
         }
         .service__btn-gardens{
             margin-left: 142px;

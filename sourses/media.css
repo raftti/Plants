@@ -319,6 +319,9 @@
     .navbar__list{
         display: none;
     }
+    .navbar__list li{
+        margin-right: 0;
+    }
     .navbar__b-menu{
         display: block !important;
         width: 40px;
